@@ -1,28 +1,96 @@
-/*worked with: Sarah Wojtowicz*/
-
-ol li:nth-child(even){
-    background: #376F70
+body{
+ font-family: Arial, Verdana;   
+ background-color: #000000;
+ color: #ffff;
+ margin-top: 20px;
+ margin-left: 20px;
+ margin-right: 20px;
 }
 
-ol li:nth-child(odd){
-    background: #BEEEEF
+h1 {
+    text-align: center;
+    font-size: 42px;
+    padding: 15px;
 }
 
-ol li:nth-child(10n+0){
-    margin-bottom: 50px;
+h2 {
+    font-size: 30px;
+    color: #0D0D0D;
 }
 
-ol li:last-child{
-    margin-bottom: inherit;
+p {
+    font-size: 24px;
+    padding: 10px 0 0 10px;
 }
 
-img{
-    border: 5px solid black;
-    margin: 10px;
-    display:inline;
+img {
+    border: 10px dashed white;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/*= universal selector */
-img:hover, *:focus{
-    box-shadow: 10px 10px 5px #376F70;
+div {
+    min-height: 125px;
+    padding: 20px;
+    border: 3px solid white;
+}
+
+div.introduction{
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2;
+}
+
+div.red {
+    background-color: #ff0000;
+    text-align: right;
+    margin-left: 50px;
+    border-width: 0 0 2px 5px;
+}
+
+div.blue {
+    background-color: #0000ff;
+    text-align: left;
+    margin-right: 50px;
+    border-width: 2px 5px 0 0;
+}
+
+div.blue p{
+    color: #C4C4C4
+}
+
+div.blue h2{
+    color: #C4C4C4
+}
+
+div.yellow {
+    background-color: #ffff00;
+    text-align: right;
+    margin-left: 50px;
+    border-width: 0 0 2px 5px;
+}
+
+div.yellow p{
+    color: #707070
+}
+
+div.green {
+    background-color: #008500;
+    text-align: left;
+    margin-right: 50px;
+    border-width: 2px 5px 0 0;
+}
+
+footer {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,255,1) 25%, rgba(0,102,255,1) 70%, rgba(0,0,0,1) 100%);
+    border: 5px solid white;
+}
+
+footer p {
+    font-size: 20px;
+    text-align: right;
+    padding: 15px 15px 15px 0;
 }
